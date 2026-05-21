@@ -122,7 +122,7 @@ export function PortfolioPreview() {
     <section className="section-shell" id="portfolio">
       <SectionIntro
         eyebrow="Portfolio"
-        title="Projetos que equilibram proporcao, uso e atmosfera."
+        title="Projetos que equilibram proporção, uso e atmosfera."
         text="Cada projeto nasce de uma leitura cuidadosa do terreno, da rotina e dos materiais que melhor envelhecem com o tempo."
       />
       <div className="mt-12 grid gap-6 lg:grid-cols-3">
@@ -164,8 +164,8 @@ export function AboutStudio() {
       <div>
         <SectionIntro
           eyebrow="Sobre o escritorio"
-          title="Um estudio boutique para projetos com presenca silenciosa."
-          text="Combinamos direcao criativa, planejamento tecnico e acompanhamento proximo para transformar ideias em ambientes coerentes do conceito a obra."
+          title="Um estudio boutique para projetos com presença silenciosa."
+          text="Combinamos direção criativa, planejamento tecnico e acompanhamento próximo para transformar ideias em ambientes coerentes do conceito a obra."
         />
         <div className="mt-10 grid gap-6 sm:grid-cols-3">
           {[
@@ -186,9 +186,9 @@ export function AboutStudio() {
 
 export function WorkProcess() {
   const steps = [
-    ["01", "Imersao", "Briefing, referencias, visita tecnica e definicao de prioridades."],
-    ["02", "Conceito", "Estudo volumetrico, layout, materialidade e narrativa do espaco."],
-    ["03", "Detalhamento", "Executivo, marcenaria, luminotecnica e compatibilizacoes."],
+    ["01", "Imersão", "Briefing, referências, visita tecnica e definição de prioridades."],
+    ["02", "Conceito", "Estudo volumétrico, layout, materialidade e narrativa do espaço."],
+    ["03", "Detalhamento", "Executivo, marcenaria, luminotecnica e compatibilizações."],
     ["04", "Obra", "Apoio em fornecedores, visitas tecnicas e ajustes de campo."],
   ];
 
@@ -197,7 +197,7 @@ export function WorkProcess() {
       <SectionIntro
         eyebrow="Processo"
         title="Um caminho claro entre primeira conversa e obra pronta."
-        text="O metodo reduz incertezas, antecipa decisoes importantes e mantem a estetica alinhada ao orcamento."
+        text="O método reduz incertezas, antecipa decisões importantes e mantem a estética alinhada ao orçamento."
       />
       <div className="mt-12 grid gap-px overflow-hidden border border-stone-300 bg-stone-300 lg:grid-cols-4">
         {steps.map(([number, title, text]) => (
@@ -218,15 +218,15 @@ export function Differentials() {
       <div className="mx-auto max-w-7xl">
         <SectionIntro
         eyebrow="Diferenciais"
-        title="Rigor de escritorio grande, cuidado de atelier."
-          text="Nossa entrega junta desenho autoral, cronograma realista e documentacao pensada para quem constroi."
+        title="Rigor de escritório grande, cuidado de atelier."
+          text="Nossa entrega junta desenho autoral, cronograma realista e documentação pensada para quem constroi."
           inverted
       />
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
             "Caderno tecnico completo para reduzir improvisos na obra.",
-            "Curadoria de materiais com foco em durabilidade e manutencao.",
-            "Comunicacao objetiva com clientes, fornecedores e equipes.",
+            "Curadoria de materiais com foco em durabilidade e manutenção.",
+            "Comunicação objetiva com clientes, fornecedores e equipes.",
           ].map((item) => (
             <div key={item} className="border border-stone-700 p-7">
               <p className="text-lg leading-8 text-stone-200">{item}</p>
@@ -244,7 +244,7 @@ export function Testimonials() {
       <SectionIntro
         eyebrow="Depoimentos"
         title="Clientes que viveram o processo de perto."
-        text="A relacao com cada cliente e construida com escuta, transparencia e decisoes bem documentadas."
+        text="A relação com cada cliente e construída com escuta, transparência e decisões bem documentadas."
       />
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         {[
@@ -253,7 +253,7 @@ export function Testimonials() {
             "Mariana e Felipe, Casa Horizonte",
           ],
           [
-            "O escritorio conseguiu dar identidade ao nosso espaco comercial sem perder funcionalidade. A entrega tecnica foi impecavel.",
+            "O escritório conseguiu dar identidade ao nosso espaço comercial sem perder funcionalidade. A entrega técnica foi impecável.",
             "Renata Costa, Galeria Onze",
           ],
         ].map(([quote, author]) => (
@@ -275,14 +275,14 @@ export function BudgetCta() {
       <div className="mx-auto grid max-w-7xl items-center gap-8 bg-[#d7c3a3] p-8 sm:p-12 lg:grid-cols-[1fr_auto]">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-stone-700">
-            CTA Orcamento
+            CTA Orçamento
           </p>
           <h2 className="mt-4 font-serif text-4xl text-stone-950 sm:text-5xl">
-            Vamos desenhar o proximo endereco da sua historia?
+            Vamos desenhar o proximo endereço da sua história?
           </h2>
         </div>
         <Link className="button-dark" href="/contato">
-          Comecar conversa
+          Começar conversa
         </Link>
       </div>
     </section>

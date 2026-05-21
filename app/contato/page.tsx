@@ -5,7 +5,7 @@ export default function ContatoPage() {
     <>
       <PageHero
         title="Vamos conversar sobre escopo, prazo e investimento."
-        text="Envie as primeiras informacoes do projeto. A partir delas, montamos uma proposta com etapas, entregaveis e formato de acompanhamento."
+        text="Envie as primeiras informações do projeto. A partir delas, montamos uma proposta com etapas, entregáveis e formato de acompanhamento."
       />
       <ContactForm />
       <Faq />

@@ -5,8 +5,8 @@ export default function ProjetosPage() {
   return (
     <>
       <PageHero
-        title="Portfolio de projetos residenciais, comerciais e interiores."
-        text="Uma selecao de obras pensadas para rotina real: luz natural, circulacao fluida, materiais duraveis e atmosfera sob medida."
+        title="Portfólio de projetos residenciais, comerciais e interiores."
+        text="Uma seleção de obras pensadas para rotina real: luz natural, circulação fluida, materiais duráveis e atmosfera sob medida."
       />
       <section className="section-shell pt-0">
         <div className="grid gap-10">

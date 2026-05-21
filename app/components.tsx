@@ -19,7 +19,7 @@ export function Header() {
           href="/contato"
           className="inline-flex h-11 items-center justify-center border border-stone-950 px-5 text-sm font-semibold uppercase tracking-[0.16em] text-stone-950 transition hover:bg-stone-950 hover:text-white"
         >
-          Orcamento
+          Orçamento
         </Link>
       </nav>
     </header>
@@ -101,7 +101,7 @@ export function HeroMinimal() {
             Arquitetura residencial e interiores
           </p>
           <h1 className="mt-6 font-serif text-5xl leading-[1.02] sm:text-7xl lg:text-8xl">
-            Espacos precisos, acolhedores e feitos para durar.
+            Espaços precisos, acolhedores e feitos para durar.
           </h1>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link className="button-light" href="/projetos">

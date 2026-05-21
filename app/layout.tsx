@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Atelier Viga | Arquitetura e Interiores",
   description:
-    "Template premium para escritorio de arquitetura com portfolio, servicos, processo, FAQ e contato.",
+    "Template premium para escritorio de arquitetura com portfolio, serviços, processo, FAQ e contato.",
 };
 
 export default function RootLayout({

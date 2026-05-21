@@ -23,7 +23,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
     description:
-      "Reforma completa com marcenaria sob medida, iluminacao indireta e paleta mineral.",
+      "Reforma completa com marcenaria sob medida, iluminação indireta e paleta mineral.",
   },
   {
     title: "Galeria Onze",
@@ -32,7 +32,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
     description:
-      "Espaco corporativo com recepcao escultorica, salas flexiveis e materiais de alta durabilidade.",
+      "Espaço corporativo com recepção escultorica, salas flexíveis e materiais de alta durabilidade.",
   },
 ];
 
@@ -40,23 +40,23 @@ export const services = [
   "Projetos arquitetonicos residenciais",
   "Interiores e marcenaria sob medida",
   "Retrofit comercial e corporativo",
-  "Compatibilizacao e acompanhamento de obra",
+  "Compatibilização e acompanhamento de obra",
 ];
 
 export const faqs = [
   {
     question: "Quanto tempo leva um projeto completo?",
     answer:
-      "Projetos residenciais costumam levar de 8 a 14 semanas, variando conforme metragem, aprovacoes e nivel de detalhamento.",
+      "Projetos residenciais costumam levar de 8 a 14 semanas, variando conforme metragem, aprovações e nível de detalhamento.",
   },
   {
-    question: "O escritorio acompanha a obra?",
+    question: "O escritório acompanha a obra?",
     answer:
-      "Sim. O acompanhamento pode ser contratado por visitas tecnicas, gestao de fornecedores ou direcao completa de obra.",
+      "Sim. O acompanhamento pode ser contratado por visitas tecnicas, gestão de fornecedores ou direção completa de obra.",
   },
   {
     question: "Atendem outras cidades?",
     answer:
-      "Atendemos projetos presenciais no Sudeste e trabalhos remotos para outras regioes, com etapas digitais bem definidas.",
+      "Atendemos projetos presenciais no Sudeste e trabalhos remotos para outras regiões, com etapas digitais bem definidas.",
   },
 ];

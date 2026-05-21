@@ -5,7 +5,7 @@ export default function SobrePage() {
     <>
       <PageHero
         title="Arquitetura com escuta, desenho preciso e obra bem orientada."
-        text="O Atelier Viga atua como um escritorio boutique, conduzindo poucos projetos por vez para manter proximidade, consistencia e controle de qualidade."
+        text="O Atelier Viga atua como um escritório boutique, conduzindo poucos projetos por vez para manter proximidade, consisténcia e controle de qualidade."
       />
       <AboutStudio />
       <Differentials />

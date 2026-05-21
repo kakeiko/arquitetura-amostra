@@ -319,7 +319,7 @@ export function ContactForm() {
         <SectionIntro
           eyebrow="Formulario"
           title="Conte sobre o projeto."
-          text="Use o formulario para enviar contexto inicial. Retornamos com proximos passos e uma proposta de escopo."
+          text="Use o formulário para enviar contexto inicial. Retornamos com próximos passos e uma proposta de escopo."
         />
         <div className="mt-8 space-y-3 text-stone-600">
           <p>contato@atelierviga.com</p>
